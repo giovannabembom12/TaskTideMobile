@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventoInformacoes">
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/btn_background"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="411dp"
+        android:layout_height="78dp"
+        android:background="@color/green"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/whatsapp_image_2024_03_26_at_10_37_34_removebg_preview"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outras informações..."
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passo 3 de 5"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data prevista"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário de Início"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário de término"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="370dp"
+        android:layout_height="0dp"
+        android:text="Caso o seu evento ocorrer em mais de um dia, você pode ajustar isso no painel de eventos após o processo de criação."
+        android:textColor="#707070"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/btn_background"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/whatsapp_image_2024_04_02_at_16_13_54__2__removebg_preview"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/btn_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_arrow_forward_ios_24"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="680dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
