@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventoIdentidade">
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/btn_background"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="411dp"
+        android:layout_height="78dp"
+        android:background="@color/green"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/whatsapp_image_2024_03_26_at_10_37_34_removebg_preview"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar sua identidade..."
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passo 4 de 5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Essas informações ficarão visíveis para os participantes do seu evento."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Cargo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Departamento"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Contato(Telefone ou E-mail)"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="#d9d9d9"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/btn_background"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/whatsapp_image_2024_04_02_at_16_13_54__3__removebg_preview"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/btn_background"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_arrow_forward_ios_24"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="676dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
